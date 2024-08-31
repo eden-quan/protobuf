@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sinsay/protobuf/internal/detrand"
-	"github.com/sinsay/protobuf/internal/msgfmt"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/testing/protocmp"
-	"github.com/sinsay/protobuf/testing/protopack"
+	"github.com/eden-quan/protobuf/internal/detrand"
+	"github.com/eden-quan/protobuf/internal/msgfmt"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/testing/protocmp"
+	"github.com/eden-quan/protobuf/testing/protopack"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	textpb "github.com/sinsay/protobuf/internal/testprotos/textpb2"
-	dynpb "github.com/sinsay/protobuf/types/dynamicpb"
-	anypb "github.com/sinsay/protobuf/types/known/anypb"
-	durpb "github.com/sinsay/protobuf/types/known/durationpb"
-	tspb "github.com/sinsay/protobuf/types/known/timestamppb"
-	wpb "github.com/sinsay/protobuf/types/known/wrapperspb"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	textpb "github.com/eden-quan/protobuf/internal/testprotos/textpb2"
+	dynpb "github.com/eden-quan/protobuf/types/dynamicpb"
+	anypb "github.com/eden-quan/protobuf/types/known/anypb"
+	durpb "github.com/eden-quan/protobuf/types/known/durationpb"
+	tspb "github.com/eden-quan/protobuf/types/known/timestamppb"
+	wpb "github.com/eden-quan/protobuf/types/known/wrapperspb"
 )
 
 func init() {

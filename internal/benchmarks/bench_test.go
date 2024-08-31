@@ -15,18 +15,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sinsay/protobuf/encoding/protojson"
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/protojson"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 
-	benchpb "github.com/sinsay/protobuf/internal/testprotos/benchmarks"
-	_ "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
-	_ "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
-	_ "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
-	_ "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
-	_ "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
+	benchpb "github.com/eden-quan/protobuf/internal/testprotos/benchmarks"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
 )
 
 func BenchmarkWire(b *testing.B) {

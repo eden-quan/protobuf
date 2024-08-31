@@ -11,9 +11,9 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 )
 
 // These functions exist to support exported APIs in generated protobufs.

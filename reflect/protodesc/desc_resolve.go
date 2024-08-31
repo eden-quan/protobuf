@@ -5,13 +5,13 @@
 package protodesc
 
 import (
-	"github.com/sinsay/protobuf/internal/encoding/defval"
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/internal/encoding/defval"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 // resolver is a wrapper around a local registry of declarations within the file

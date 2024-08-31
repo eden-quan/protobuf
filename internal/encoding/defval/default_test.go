@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sinsay/protobuf/internal/encoding/defval"
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/internal/encoding/defval"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 func Test(t *testing.T) {

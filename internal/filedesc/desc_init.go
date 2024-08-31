@@ -7,10 +7,10 @@ package filedesc
 import (
 	"sync"
 
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/genid"
-	"github.com/sinsay/protobuf/internal/strs"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/strs"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 // fileRaw is a data struct used when initializing a file descriptor from

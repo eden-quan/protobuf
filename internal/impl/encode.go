@@ -9,9 +9,9 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/sinsay/protobuf/internal/flags"
-	proto "github.com/sinsay/protobuf/proto"
-	piface "github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/internal/flags"
+	proto "github.com/eden-quan/protobuf/proto"
+	piface "github.com/eden-quan/protobuf/runtime/protoiface"
 )
 
 type marshalOptions struct {

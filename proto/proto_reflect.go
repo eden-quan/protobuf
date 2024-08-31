@@ -9,8 +9,8 @@
 package proto
 
 import (
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 )
 
 const hasProtoMethods = false

@@ -8,9 +8,9 @@
 package imports
 
 import (
-	test_a_1 "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/testdata/imports/test_a_1"
-	protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
-	protoimpl "github.com/sinsay/protobuf/runtime/protoimpl"
+	test_a_1 "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/imports/test_a_1"
+	protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/eden-quan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

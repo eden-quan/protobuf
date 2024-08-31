@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/internal/strs"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/internal/strs"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 // legacyEnumName returns the name of enums used in legacy code.

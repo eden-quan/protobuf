@@ -12,9 +12,9 @@
 package protoimpl
 
 import (
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/internal/filetype"
-	"github.com/sinsay/protobuf/internal/impl"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/internal/filetype"
+	"github.com/eden-quan/protobuf/internal/impl"
 )
 
 // UnsafeEnabled specifies whether package unsafe can be used.

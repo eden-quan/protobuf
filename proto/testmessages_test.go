@@ -5,18 +5,18 @@
 package proto_test
 
 import (
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/impl"
-	"github.com/sinsay/protobuf/internal/protobuild"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
-	"github.com/sinsay/protobuf/testing/protopack"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/impl"
+	"github.com/eden-quan/protobuf/internal/protobuild"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/testing/protopack"
 
-	legacypb "github.com/sinsay/protobuf/internal/testprotos/legacy"
-	requiredpb "github.com/sinsay/protobuf/internal/testprotos/required"
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	test3pb "github.com/sinsay/protobuf/internal/testprotos/test3"
+	legacypb "github.com/eden-quan/protobuf/internal/testprotos/legacy"
+	requiredpb "github.com/eden-quan/protobuf/internal/testprotos/required"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	test3pb "github.com/eden-quan/protobuf/internal/testprotos/test3"
 )
 
 type testProto struct {

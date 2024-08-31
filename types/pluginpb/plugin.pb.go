@@ -24,9 +24,9 @@
 package pluginpb
 
 import (
-	protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
-	protoimpl "github.com/sinsay/protobuf/runtime/protoimpl"
-	descriptorpb "github.com/sinsay/protobuf/types/descriptorpb"
+	protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/eden-quan/protobuf/runtime/protoimpl"
+	descriptorpb "github.com/eden-quan/protobuf/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 )

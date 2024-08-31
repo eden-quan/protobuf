@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	pimpl "github.com/sinsay/protobuf/internal/impl"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protodesc"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	pimpl "github.com/eden-quan/protobuf/internal/impl"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protodesc"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 
-	proto2_20180125 "github.com/sinsay/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/eden-quan/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

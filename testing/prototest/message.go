@@ -14,11 +14,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 // TODO: Test invalid field descriptors or oneof descriptors.

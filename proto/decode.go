@@ -5,15 +5,15 @@
 package proto
 
 import (
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/encoding/messageset"
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/internal/genid"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/encoding/messageset"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 )
 
 // UnmarshalOptions configures the unmarshaler.

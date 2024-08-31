@@ -7,13 +7,13 @@ package impl
 import (
 	"math/bits"
 
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 )
 
 var errDecode = errors.New("cannot parse invalid wire-format data")

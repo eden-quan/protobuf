@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/runtime/protoimpl"
-	"github.com/sinsay/protobuf/testing/prototest"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/runtime/protoimpl"
+	"github.com/eden-quan/protobuf/testing/prototest"
 
-	irregularpb "github.com/sinsay/protobuf/internal/testprotos/irregular"
-	legacypb "github.com/sinsay/protobuf/internal/testprotos/legacy"
-	legacy1pb "github.com/sinsay/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	_ "github.com/sinsay/protobuf/internal/testprotos/test/weak1"
-	_ "github.com/sinsay/protobuf/internal/testprotos/test/weak2"
-	test3pb "github.com/sinsay/protobuf/internal/testprotos/test3"
+	irregularpb "github.com/eden-quan/protobuf/internal/testprotos/irregular"
+	legacypb "github.com/eden-quan/protobuf/internal/testprotos/legacy"
+	legacy1pb "github.com/eden-quan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/test/weak1"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/test/weak2"
+	test3pb "github.com/eden-quan/protobuf/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

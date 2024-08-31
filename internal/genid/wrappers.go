@@ -4,7 +4,7 @@
 
 package genid
 
-import protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
+import protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
 
 // Generic field name and number for messages in wrappers.proto.
 const (

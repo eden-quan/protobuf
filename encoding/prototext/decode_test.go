@@ -9,16 +9,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	weakpb "github.com/sinsay/protobuf/internal/testprotos/test/weak1"
-	pb2 "github.com/sinsay/protobuf/internal/testprotos/textpb2"
-	pb3 "github.com/sinsay/protobuf/internal/testprotos/textpb3"
-	"github.com/sinsay/protobuf/types/known/anypb"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	weakpb "github.com/eden-quan/protobuf/internal/testprotos/test/weak1"
+	pb2 "github.com/eden-quan/protobuf/internal/testprotos/textpb2"
+	pb3 "github.com/eden-quan/protobuf/internal/testprotos/textpb3"
+	"github.com/eden-quan/protobuf/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

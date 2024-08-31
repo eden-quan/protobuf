@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"strings"
 
-	gengo "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/internal_gengo"
-	"github.com/sinsay/protobuf/compiler/protogen"
-	"github.com/sinsay/protobuf/internal/detrand"
-	"github.com/sinsay/protobuf/reflect/protodesc"
+	gengo "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/internal_gengo"
+	"github.com/eden-quan/protobuf/compiler/protogen"
+	"github.com/eden-quan/protobuf/internal/detrand"
+	"github.com/eden-quan/protobuf/reflect/protodesc"
 )
 
 func init() {
@@ -127,7 +127,7 @@ func generateLocalProtos() {
 		exclude  map[string]bool   // .proto files to exclude from generation
 	}{{
 		path:     "cmd/protoc-gen-go-fx/testdata",
-		pkgPaths: map[string]string{"cmd/protoc-gen-go-fx/testdata/nopackage/nopackage.proto": "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/testdata/nopackage"},
+		pkgPaths: map[string]string{"cmd/protoc-gen-go-fx/testdata/nopackage/nopackage.proto": "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/nopackage"},
 		annotate: map[string]bool{"cmd/protoc-gen-go-fx/testdata/annotations/annotations.proto": true},
 	}, {
 		path:    "internal/testprotos",
@@ -213,9 +213,9 @@ func generateRemoteProtos() {
 		{"src", "google/protobuf/descriptor.proto", ""},
 
 		// Conformance protos.
-		{"", "conformance/conformance.proto", "github.com/sinsay/protobuf/internal/testprotos/conformance;conformance"},
-		{"src", "google/protobuf/test_messages_proto2.proto", "github.com/sinsay/protobuf/internal/testprotos/conformance;conformance"},
-		{"src", "google/protobuf/test_messages_proto3.proto", "github.com/sinsay/protobuf/internal/testprotos/conformance;conformance"},
+		{"", "conformance/conformance.proto", "github.com/eden-quan/protobuf/internal/testprotos/conformance;conformance"},
+		{"src", "google/protobuf/test_messages_proto2.proto", "github.com/eden-quan/protobuf/internal/testprotos/conformance;conformance"},
+		{"src", "google/protobuf/test_messages_proto3.proto", "github.com/eden-quan/protobuf/internal/testprotos/conformance;conformance"},
 
 		// Benchmark protos.
 		// TODO: The protobuf repo no longer includes benchmarks.
@@ -225,23 +225,23 @@ func generateRemoteProtos() {
 		//         https://github.com/google/fleetbench/tree/main/fleetbench/proto
 		//       For now, commenting these out until benchmarks in this repo can be
 		//       reconciled with new fleetbench stuff.
-		//{"benchmarks", "benchmarks.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks;benchmarks"},
-		//{"benchmarks", "datasets/google_message1/proto2/benchmark_message1_proto2.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2;proto2"},
-		//{"benchmarks", "datasets/google_message1/proto3/benchmark_message1_proto3.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3;proto3"},
-		//{"benchmarks", "datasets/google_message2/benchmark_message2.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message2;google_message2"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_1.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_2.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_3.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_4.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_5.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_6.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_7.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message3/benchmark_message3_8.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4_1.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4_2.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
-		//{"benchmarks", "datasets/google_message4/benchmark_message4_3.proto", "github.com/sinsay/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "benchmarks.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks;benchmarks"},
+		//{"benchmarks", "datasets/google_message1/proto2/benchmark_message1_proto2.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2;proto2"},
+		//{"benchmarks", "datasets/google_message1/proto3/benchmark_message1_proto3.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3;proto3"},
+		//{"benchmarks", "datasets/google_message2/benchmark_message2.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message2;google_message2"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_1.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_2.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_3.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_4.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_5.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_6.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_7.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message3/benchmark_message3_8.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3;google_message3"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4_1.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4_2.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
+		//{"benchmarks", "datasets/google_message4/benchmark_message4_3.proto", "github.com/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message4;google_message4"},
 	}
 
 	opts := "module=" + modulePath
@@ -290,7 +290,7 @@ func generateIdentifiers(gen *protogen.Plugin, file *protogen.File) {
 
 	var processEnums func([]*protogen.Enum)
 	var processMessages func([]*protogen.Message)
-	const protoreflectPackage = protogen.GoImportPath("github.com/sinsay/protobuf/reflect/protoreflect")
+	const protoreflectPackage = protogen.GoImportPath("github.com/eden-quan/protobuf/reflect/protoreflect")
 	processEnums = func(enums []*protogen.Enum) {
 		for _, enum := range enums {
 			g.P("// Full and short names for ", enum.Desc.FullName(), ".")

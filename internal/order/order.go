@@ -5,7 +5,7 @@
 package order
 
 import (
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 // FieldOrder specifies the ordering to visit message fields.

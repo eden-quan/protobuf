@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sinsay/protobuf/compiler/protogen"
+	"github.com/eden-quan/protobuf/compiler/protogen"
 )
 
 var reg = regexp.MustCompile(`#(\S+?):"(\S+?)"`)

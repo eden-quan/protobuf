@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sinsay/protobuf/internal/version"
+	"github.com/eden-quan/protobuf/internal/version"
 )
 
 var (

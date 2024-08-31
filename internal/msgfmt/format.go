@@ -16,13 +16,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/detrand"
-	"github.com/sinsay/protobuf/internal/genid"
-	"github.com/sinsay/protobuf/internal/order"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/detrand"
+	"github.com/eden-quan/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/order"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 // Format returns a formatted string for the message.

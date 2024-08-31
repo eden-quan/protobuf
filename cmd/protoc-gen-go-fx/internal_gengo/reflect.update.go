@@ -1,11 +1,11 @@
 package internal_gengo
 
 import (
-	"github.com/sinsay/protobuf/compiler/protogen"
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/compiler/protogen"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 // processFlattenExtension 检查 descProto 中的消息类型，为每个消息调用 updateFlattenMessage 进行更新

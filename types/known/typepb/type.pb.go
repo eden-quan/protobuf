@@ -34,10 +34,10 @@
 package typepb
 
 import (
-	protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
-	protoimpl "github.com/sinsay/protobuf/runtime/protoimpl"
-	anypb "github.com/sinsay/protobuf/types/known/anypb"
-	sourcecontextpb "github.com/sinsay/protobuf/types/known/sourcecontextpb"
+	protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/eden-quan/protobuf/runtime/protoimpl"
+	anypb "github.com/eden-quan/protobuf/types/known/anypb"
+	sourcecontextpb "github.com/eden-quan/protobuf/types/known/sourcecontextpb"
 	reflect "reflect"
 	sync "sync"
 )

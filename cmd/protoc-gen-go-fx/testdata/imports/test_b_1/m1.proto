@@ -4,5 +4,5 @@
 
 syntax = "proto3";
 package test.b.part1;
-option go_package = "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/testdata/imports/test_b_1;beta";
+option go_package = "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/imports/test_b_1;beta";
 message M1 {}

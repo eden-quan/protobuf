@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sinsay/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/internal/flags"
 )
 
 // Kind represents a token kind expressible in the textproto format.

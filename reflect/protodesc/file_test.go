@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 func mustParseFile(s string) *descriptorpb.FileDescriptorProto {

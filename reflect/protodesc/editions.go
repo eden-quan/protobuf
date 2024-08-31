@@ -10,9 +10,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 const (

@@ -10,10 +10,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
 )
 
 func TestExtensionType(t *testing.T) {

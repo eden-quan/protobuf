@@ -5,7 +5,7 @@
 package proto
 
 import (
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 // HasExtension reports whether an extension field is populated.

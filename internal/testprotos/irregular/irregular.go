@@ -5,12 +5,12 @@
 package irregular
 
 import (
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/reflect/protodesc"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/reflect/protodesc"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 type IrregularMessage struct {
@@ -121,7 +121,7 @@ const descriptorText = `
     }
   }
   options {
-    go_package: "github.com/sinsay/protobuf/internal/testprotos/irregular"
+    go_package: "github.com/eden-quan/protobuf/internal/testprotos/irregular"
   }
 `
 

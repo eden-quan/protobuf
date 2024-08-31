@@ -7,12 +7,12 @@ package impl_test
 import (
 	"testing"
 
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/internal/impl"
-	"github.com/sinsay/protobuf/internal/protobuild"
-	"github.com/sinsay/protobuf/proto"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/internal/impl"
+	"github.com/eden-quan/protobuf/internal/protobuild"
+	"github.com/eden-quan/protobuf/proto"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
 )
 
 func TestLazyExtensions(t *testing.T) {

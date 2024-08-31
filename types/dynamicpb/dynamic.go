@@ -8,10 +8,10 @@ package dynamicpb
 import (
 	"math"
 
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/runtime/protoiface"
-	"github.com/sinsay/protobuf/runtime/protoimpl"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/runtime/protoimpl"
 )
 
 // enum is a dynamic protoreflect.Enum.

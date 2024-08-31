@@ -5,5 +5,5 @@
 package bug1052_test
 
 import (
-	_ "github.com/sinsay/protobuf/internal/testprotos/legacy/bug1052"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/legacy/bug1052"
 )

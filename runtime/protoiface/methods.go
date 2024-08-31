@@ -10,8 +10,8 @@
 package protoiface
 
 import (
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 // Methods is a set of optional fast-path implementations of various operations.

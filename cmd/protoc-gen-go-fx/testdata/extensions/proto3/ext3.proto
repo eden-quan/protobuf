@@ -8,7 +8,7 @@ import "google/protobuf/descriptor.proto";
 
 package goproto.protoc.extension.proto3;
 
-option go_package = "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/testdata/extensions/proto3";
+option go_package = "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/extensions/proto3";
 
 message Message {}
 enum Enum { ZERO = 0; }

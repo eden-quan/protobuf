@@ -7,10 +7,10 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
 )
 
 // TestNil tests for boundary conditions when nil and typed-nil messages

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sinsay/protobuf/encoding/protojson"
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/encoding/protojson"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 
-	tpb "github.com/sinsay/protobuf/internal/testprotos/test"
+	tpb "github.com/eden-quan/protobuf/internal/testprotos/test"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

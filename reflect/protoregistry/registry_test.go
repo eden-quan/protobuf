@@ -12,14 +12,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	pimpl "github.com/sinsay/protobuf/internal/impl"
-	"github.com/sinsay/protobuf/reflect/protodesc"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	pimpl "github.com/eden-quan/protobuf/internal/impl"
+	"github.com/eden-quan/protobuf/reflect/protodesc"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/registry"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/registry"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 func mustMakeFile(s string) protoreflect.FileDescriptor {

@@ -13,10 +13,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/sinsay/protobuf/encoding/protodelim"
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/testprotos/test3"
-	"github.com/sinsay/protobuf/testing/protocmp"
+	"github.com/eden-quan/protobuf/encoding/protodelim"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/testprotos/test3"
+	"github.com/eden-quan/protobuf/testing/protocmp"
 )
 
 func TestRoundTrip(t *testing.T) {

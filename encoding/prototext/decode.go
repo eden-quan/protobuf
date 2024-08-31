@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/sinsay/protobuf/internal/encoding/messageset"
-	"github.com/sinsay/protobuf/internal/encoding/text"
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/internal/genid"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/internal/set"
-	"github.com/sinsay/protobuf/internal/strs"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/internal/encoding/messageset"
+	"github.com/eden-quan/protobuf/internal/encoding/text"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/internal/set"
+	"github.com/eden-quan/protobuf/internal/strs"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given [proto.Message].

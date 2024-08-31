@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/sinsay/protobuf/internal/flags"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/internal/flags"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 type fieldInfo struct {

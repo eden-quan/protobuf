@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package test;
 
-option go_package = "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/testdata/imports";
+option go_package = "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/imports";
 
 import "cmd/protoc-gen-go/testdata/imports/test_a_1/m2.proto";
 

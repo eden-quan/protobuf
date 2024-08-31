@@ -10,13 +10,13 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protodesc"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protodesc"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	_ "github.com/sinsay/protobuf/internal/testprotos/test/weak1"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	_ "github.com/eden-quan/protobuf/internal/testprotos/test/weak1"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

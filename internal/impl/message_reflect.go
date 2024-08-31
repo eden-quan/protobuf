@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/sinsay/protobuf/internal/detrand"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/internal/detrand"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 type reflectMessageInfo struct {

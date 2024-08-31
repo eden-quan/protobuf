@@ -10,7 +10,7 @@ package strs
 import (
 	"unsafe"
 
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 // UnsafeString returns an unsafe string reference of b.

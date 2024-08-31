@@ -7,14 +7,14 @@ package impl
 import (
 	"reflect"
 
-	"github.com/sinsay/protobuf/internal/descopts"
-	"github.com/sinsay/protobuf/internal/encoding/messageset"
-	ptag "github.com/sinsay/protobuf/internal/encoding/tag"
-	"github.com/sinsay/protobuf/internal/filedesc"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
-	"github.com/sinsay/protobuf/runtime/protoiface"
+	"github.com/eden-quan/protobuf/internal/descopts"
+	"github.com/eden-quan/protobuf/internal/encoding/messageset"
+	ptag "github.com/eden-quan/protobuf/internal/encoding/tag"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

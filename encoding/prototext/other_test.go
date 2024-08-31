@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 
-	pb2 "github.com/sinsay/protobuf/internal/testprotos/textpb2"
-	"github.com/sinsay/protobuf/types/known/anypb"
-	"github.com/sinsay/protobuf/types/known/durationpb"
-	"github.com/sinsay/protobuf/types/known/emptypb"
-	"github.com/sinsay/protobuf/types/known/structpb"
-	"github.com/sinsay/protobuf/types/known/timestamppb"
-	"github.com/sinsay/protobuf/types/known/wrapperspb"
+	pb2 "github.com/eden-quan/protobuf/internal/testprotos/textpb2"
+	"github.com/eden-quan/protobuf/types/known/anypb"
+	"github.com/eden-quan/protobuf/types/known/durationpb"
+	"github.com/eden-quan/protobuf/types/known/emptypb"
+	"github.com/eden-quan/protobuf/types/known/structpb"
+	"github.com/eden-quan/protobuf/types/known/timestamppb"
+	"github.com/eden-quan/protobuf/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

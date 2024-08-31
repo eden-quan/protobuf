@@ -16,15 +16,15 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/sinsay/protobuf/compiler/protogen"
-	"github.com/sinsay/protobuf/internal/encoding/tag"
-	"github.com/sinsay/protobuf/internal/genid"
-	"github.com/sinsay/protobuf/internal/version"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/runtime/protoimpl"
+	"github.com/eden-quan/protobuf/compiler/protogen"
+	"github.com/eden-quan/protobuf/internal/encoding/tag"
+	"github.com/eden-quan/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/version"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/runtime/protoimpl"
 
-	"github.com/sinsay/protobuf/types/descriptorpb"
-	"github.com/sinsay/protobuf/types/pluginpb"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/types/pluginpb"
 )
 
 // SupportedFeatures reports the set of supported protobuf language features.

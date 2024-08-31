@@ -13,7 +13,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sinsay/protobuf/internal/encoding/json"
+	"github.com/eden-quan/protobuf/internal/encoding/json"
 )
 
 type R struct {

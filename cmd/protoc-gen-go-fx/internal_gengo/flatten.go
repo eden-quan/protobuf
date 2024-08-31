@@ -1,12 +1,12 @@
 package internal_gengo
 
 import (
-	"github.com/sinsay/protobuf/compiler/protogen"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/types/descriptorpb"
+	"github.com/eden-quan/protobuf/compiler/protogen"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/types/descriptorpb"
 
-	"github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/meta"
+	"github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/meta"
 )
 
 type FlattenInfo struct {

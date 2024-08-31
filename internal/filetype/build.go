@@ -9,11 +9,11 @@ package filetype
 import (
 	"reflect"
 
-	"github.com/sinsay/protobuf/internal/descopts"
-	"github.com/sinsay/protobuf/internal/filedesc"
-	pimpl "github.com/sinsay/protobuf/internal/impl"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/internal/descopts"
+	"github.com/eden-quan/protobuf/internal/filedesc"
+	pimpl "github.com/eden-quan/protobuf/internal/impl"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 // Builder constructs type descriptors from a raw file descriptor

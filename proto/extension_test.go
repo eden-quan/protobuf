@@ -12,15 +12,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/runtime/protoimpl"
-	"github.com/sinsay/protobuf/testing/protocmp"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/runtime/protoimpl"
+	"github.com/eden-quan/protobuf/testing/protocmp"
 
-	legacy1pb "github.com/sinsay/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	test3pb "github.com/sinsay/protobuf/internal/testprotos/test3"
-	descpb "github.com/sinsay/protobuf/types/descriptorpb"
+	legacy1pb "github.com/eden-quan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	test3pb "github.com/eden-quan/protobuf/internal/testprotos/test3"
+	descpb "github.com/eden-quan/protobuf/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

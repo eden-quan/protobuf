@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.protoc.proto2;
 
-option go_package = "github.com/sinsay/protobuf/cmd/protoc-gen-go-fx/testdata/proto2";
+option go_package = "github.com/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/proto2";
 
 message FieldTestMessage {
   optional bool     optional_bool     = 1;

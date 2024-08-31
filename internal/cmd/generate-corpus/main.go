@@ -15,12 +15,12 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/sinsay/protobuf/encoding/protojson"
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/proto"
+	"github.com/eden-quan/protobuf/encoding/protojson"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/proto"
 
-	fuzzpb "github.com/sinsay/protobuf/internal/testprotos/fuzz"
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
+	fuzzpb "github.com/eden-quan/protobuf/internal/testprotos/fuzz"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
 )
 
 var messages = []proto.Message{

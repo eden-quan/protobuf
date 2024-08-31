@@ -7,8 +7,8 @@ package impl
 import (
 	"fmt"
 
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 // weakFields adds methods to the exported WeakFields type for internal use.

@@ -10,15 +10,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/sinsay/protobuf/internal/descfmt"
-	"github.com/sinsay/protobuf/internal/descopts"
-	"github.com/sinsay/protobuf/internal/encoding/defval"
-	"github.com/sinsay/protobuf/internal/encoding/messageset"
-	"github.com/sinsay/protobuf/internal/genid"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/internal/strs"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
-	"github.com/sinsay/protobuf/reflect/protoregistry"
+	"github.com/eden-quan/protobuf/internal/descfmt"
+	"github.com/eden-quan/protobuf/internal/descopts"
+	"github.com/eden-quan/protobuf/internal/encoding/defval"
+	"github.com/eden-quan/protobuf/internal/encoding/messageset"
+	"github.com/eden-quan/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/internal/strs"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/reflect/protoregistry"
 )
 
 // Edition is an Enum for proto2.Edition

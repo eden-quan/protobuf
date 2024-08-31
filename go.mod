@@ -1,5 +1,5 @@
 //module google.golang.org/protobuf
-module github.com/sinsay/protobuf
+module github.com/eden-quan/protobuf
 
 go 1.17
 

@@ -13,15 +13,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/proto"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/proto"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 
-	"github.com/sinsay/protobuf/internal/errors"
-	orderpb "github.com/sinsay/protobuf/internal/testprotos/order"
-	testpb "github.com/sinsay/protobuf/internal/testprotos/test"
-	test3pb "github.com/sinsay/protobuf/internal/testprotos/test3"
+	"github.com/eden-quan/protobuf/internal/errors"
+	orderpb "github.com/eden-quan/protobuf/internal/testprotos/order"
+	testpb "github.com/eden-quan/protobuf/internal/testprotos/test"
+	test3pb "github.com/eden-quan/protobuf/internal/testprotos/test3"
 )
 
 func TestEncode(t *testing.T) {

@@ -136,8 +136,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/pragma"
 )
 
 type doNotImplement pragma.DoNotImplement

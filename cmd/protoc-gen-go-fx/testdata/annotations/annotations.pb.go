@@ -8,9 +8,9 @@
 package annotations
 
 import (
-	proto "github.com/sinsay/protobuf/proto"
-	protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
-	protoimpl "github.com/sinsay/protobuf/runtime/protoimpl"
+	proto "github.com/eden-quan/protobuf/proto"
+	protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/eden-quan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

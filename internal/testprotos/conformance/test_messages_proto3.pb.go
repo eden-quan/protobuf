@@ -18,14 +18,14 @@
 package conformance
 
 import (
-	protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
-	protoimpl "github.com/sinsay/protobuf/runtime/protoimpl"
-	anypb "github.com/sinsay/protobuf/types/known/anypb"
-	durationpb "github.com/sinsay/protobuf/types/known/durationpb"
-	fieldmaskpb "github.com/sinsay/protobuf/types/known/fieldmaskpb"
-	structpb "github.com/sinsay/protobuf/types/known/structpb"
-	timestamppb "github.com/sinsay/protobuf/types/known/timestamppb"
-	wrapperspb "github.com/sinsay/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/eden-quan/protobuf/runtime/protoimpl"
+	anypb "github.com/eden-quan/protobuf/types/known/anypb"
+	durationpb "github.com/eden-quan/protobuf/types/known/durationpb"
+	fieldmaskpb "github.com/eden-quan/protobuf/types/known/fieldmaskpb"
+	structpb "github.com/eden-quan/protobuf/types/known/structpb"
+	timestamppb "github.com/eden-quan/protobuf/types/known/timestamppb"
+	wrapperspb "github.com/eden-quan/protobuf/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

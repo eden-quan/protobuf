@@ -24,7 +24,7 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto "github.com/sinsay/protobuf/internal/protolegacy"
+	proto "github.com/eden-quan/protobuf/internal/protolegacy"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

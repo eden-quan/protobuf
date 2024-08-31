@@ -11,7 +11,7 @@
 
 package nullable
 
-import "github.com/sinsay/protobuf/runtime/protoimpl"
+import "github.com/eden-quan/protobuf/runtime/protoimpl"
 
 func init() {
 	methodTestProtos = append(methodTestProtos,

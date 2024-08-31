@@ -14,7 +14,7 @@ import (
 	"math"
 	"math/bits"
 
-	"github.com/sinsay/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/internal/errors"
 )
 
 // Number represents the field number.

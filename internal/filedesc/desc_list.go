@@ -10,13 +10,13 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/sinsay/protobuf/internal/genid"
+	"github.com/eden-quan/protobuf/internal/genid"
 
-	"github.com/sinsay/protobuf/encoding/protowire"
-	"github.com/sinsay/protobuf/internal/descfmt"
-	"github.com/sinsay/protobuf/internal/errors"
-	"github.com/sinsay/protobuf/internal/pragma"
-	"github.com/sinsay/protobuf/reflect/protoreflect"
+	"github.com/eden-quan/protobuf/encoding/protowire"
+	"github.com/eden-quan/protobuf/internal/descfmt"
+	"github.com/eden-quan/protobuf/internal/errors"
+	"github.com/eden-quan/protobuf/internal/pragma"
+	"github.com/eden-quan/protobuf/reflect/protoreflect"
 )
 
 type FileImports []protoreflect.FileImport

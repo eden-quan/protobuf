@@ -14,11 +14,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sinsay/protobuf/encoding/protojson"
-	"github.com/sinsay/protobuf/encoding/prototext"
-	"github.com/sinsay/protobuf/proto"
+	"github.com/eden-quan/protobuf/encoding/protojson"
+	"github.com/eden-quan/protobuf/encoding/prototext"
+	"github.com/eden-quan/protobuf/proto"
 
-	pb "github.com/sinsay/protobuf/internal/testprotos/conformance"
+	pb "github.com/eden-quan/protobuf/internal/testprotos/conformance"
 )
 
 func init() {

@@ -8,10 +8,10 @@
 package test
 
 import (
-	enums "github.com/sinsay/protobuf/internal/testprotos/enums"
-	proto "github.com/sinsay/protobuf/proto"
-	protoreflect "github.com/sinsay/protobuf/reflect/protoreflect"
-	protoimpl "github.com/sinsay/protobuf/runtime/protoimpl"
+	enums "github.com/eden-quan/protobuf/internal/testprotos/enums"
+	proto "github.com/eden-quan/protobuf/proto"
+	protoreflect "github.com/eden-quan/protobuf/reflect/protoreflect"
+	protoimpl "github.com/eden-quan/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )
