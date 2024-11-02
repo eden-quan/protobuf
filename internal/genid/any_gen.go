@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 const File_google_protobuf_any_proto = "google/protobuf/any.proto"

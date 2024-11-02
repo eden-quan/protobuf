@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
 )
 
 // call specifies which Decoder method was invoked.

@@ -12,8 +12,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/text"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/text"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

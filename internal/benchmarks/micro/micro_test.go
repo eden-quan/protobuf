@@ -11,13 +11,13 @@ package micro_test
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/emptypb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/emptypb"
 
-	micropb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/micro"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
+	micropb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/micro"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
 )
 
 // BenchmarkEmptyMessage tests a google.protobuf.Empty.

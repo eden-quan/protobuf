@@ -7,8 +7,8 @@ package impl
 import (
 	"fmt"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 // weakFields adds methods to the exported WeakFields type for internal use.

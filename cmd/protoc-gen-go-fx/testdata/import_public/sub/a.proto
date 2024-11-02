@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.protoc.import_public.sub;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/import_public/sub";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/testdata/import_public/sub";
 
 import "cmd/protoc-gen-go/testdata/import_public/sub/b.proto";
 import public "cmd/protoc-gen-go/testdata/import_public/sub2/a.proto";

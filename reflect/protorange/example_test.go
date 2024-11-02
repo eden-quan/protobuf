@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protopath"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protorange"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protopath"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protorange"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
 
-	newspb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/news"
+	newspb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/news"
 )
 
 func init() {

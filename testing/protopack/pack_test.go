@@ -13,11 +13,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protodesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protodesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 var msgDesc = func() protoreflect.MessageDescriptor {

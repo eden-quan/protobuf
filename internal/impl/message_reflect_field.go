@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"sync"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 type fieldInfo struct {

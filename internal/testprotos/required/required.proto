@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.proto.testrequired;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/required";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/required";
 
 message Int32 {
   required int32 v = 1;

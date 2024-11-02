@@ -13,8 +13,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/text"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/text"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
 )
 
 var eofErr = text.ErrUnexpectedEOF.Error()

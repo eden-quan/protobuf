@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 )
 
 const (

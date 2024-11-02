@@ -27,17 +27,17 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/strs"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protodesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/strs"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protodesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/dynamicpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/pluginpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/dynamicpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/pluginpb"
 )
 
 const goPackageDocURL = "https://protobuf.dev/reference/go/go-generated#package"
@@ -228,7 +228,7 @@ func (opts Options) New(req *pluginpb.CodeGeneratorRequest) (*Plugin, error) {
 	// .proto source file specifying the full import path of the Go package
 	// associated with this file.
 	//
-	//     option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb";
+	//     option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb";
 	//
 	// Alternatively, build systems which want to exert full control over
 	// import paths may specify M<filename>=<import_path> flags.
@@ -1235,7 +1235,7 @@ func newGoIdent(f *File, d protoreflect.Descriptor) GoIdent {
 }
 
 // A GoImportPath is the import path of a Go package.
-// For example: "gitlab.lainuoniao.cn/eden-quan/protobuf/compiler/protogen"
+// For example: "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/compiler/protogen"
 type GoImportPath string
 
 func (p GoImportPath) String() string { return strconv.Quote(string(p)) }

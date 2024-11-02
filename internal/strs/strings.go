@@ -11,8 +11,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // EnforceUTF8 reports whether to enforce strict UTF-8 validation.

@@ -7,7 +7,7 @@ package proto
 import (
 	"fmt"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // Reset clears every field in the message.

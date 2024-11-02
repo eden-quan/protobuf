@@ -21,8 +21,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // Number is the field number; aliased from the [protowire] package for convenience.

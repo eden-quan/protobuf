@@ -4,5 +4,5 @@
 
 syntax = "proto3";
 package fmt;
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/imports/fmt";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/testdata/imports/fmt";
 message M {}

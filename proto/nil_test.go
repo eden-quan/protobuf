@@ -7,10 +7,10 @@ package proto_test
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
 )
 
 // TestNil tests for boundary conditions when nil and typed-nil messages

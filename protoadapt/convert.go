@@ -6,9 +6,9 @@
 package protoadapt
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 )
 
 // MessageV1 is the original [github.com/golang/protobuf/proto.Message] type.

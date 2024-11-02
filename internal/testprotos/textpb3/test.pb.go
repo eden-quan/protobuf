@@ -10,8 +10,8 @@
 package textpb3
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

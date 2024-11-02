@@ -11,8 +11,8 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/protolegacy"
-	descriptor "gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	proto "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/protolegacy"
+	descriptor "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

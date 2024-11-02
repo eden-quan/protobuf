@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 func TestAnnotations(t *testing.T) {

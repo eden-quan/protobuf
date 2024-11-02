@@ -9,16 +9,16 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	weakpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test/weak1"
-	pb2 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb2"
-	pb3 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb3"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	weakpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test/weak1"
+	pb2 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb2"
+	pb3 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb3"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
 )
 
 func TestUnmarshal(t *testing.T) {

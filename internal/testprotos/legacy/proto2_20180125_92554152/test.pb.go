@@ -19,7 +19,7 @@ It has these top-level messages:
 */
 package proto2_20180125_92554152
 
-import proto "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/protolegacy"
+import proto "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/protolegacy"
 import fmt "fmt"
 import math "math"
 

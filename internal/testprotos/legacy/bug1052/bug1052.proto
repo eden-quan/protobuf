@@ -14,7 +14,7 @@ package goproto.proto.legacy;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy/bug1052";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy/bug1052";
 
 enum Enum {
   ZERO = 0;

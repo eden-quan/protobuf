@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package goproto.proto.test3;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3";
 
 message ImportMessage {
 }

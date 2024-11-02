@@ -16,14 +16,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/msgfmt"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/msgfmt"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 )
 
 var (

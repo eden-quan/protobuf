@@ -5,12 +5,12 @@
 package irregular
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protodesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protodesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 type IrregularMessage struct {
@@ -121,7 +121,7 @@ const descriptorText = `
     }
   }
   options {
-    go_package: "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/irregular"
+    go_package: "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/irregular"
   }
 `
 

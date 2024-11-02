@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	weakpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test/weak1"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	weakpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test/weak1"
 )
 
 func TestCheckInitializedErrors(t *testing.T) {

@@ -5,12 +5,12 @@
 package proto
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/messageset"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/order"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/messageset"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/order"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 )
 
 // MarshalOptions configures the marshaler.

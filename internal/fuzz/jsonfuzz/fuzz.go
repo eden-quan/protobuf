@@ -6,10 +6,10 @@
 package jsonfuzz
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 
-	fuzzpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/fuzz"
+	fuzzpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/fuzz"
 )
 
 // Fuzz is a fuzzer for proto.Marshal and proto.Unmarshal.

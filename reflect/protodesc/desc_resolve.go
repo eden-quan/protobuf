@@ -5,13 +5,13 @@
 package protodesc
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/defval"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/defval"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 // resolver is a wrapper around a local registry of declarations within the file

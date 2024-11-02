@@ -14,7 +14,7 @@ import (
 	"math"
 	"math/bits"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
 )
 
 // Number represents the field number.

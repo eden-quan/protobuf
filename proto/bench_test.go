@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

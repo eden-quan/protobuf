@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
 
-	pb2 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb2"
-	pb3 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb3"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/durationpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/emptypb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/fieldmaskpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/structpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/wrapperspb"
+	pb2 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb2"
+	pb3 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb3"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/durationpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/emptypb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/fieldmaskpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/structpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

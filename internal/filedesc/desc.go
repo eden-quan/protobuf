@@ -10,15 +10,15 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/descfmt"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/descopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/defval"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/messageset"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/strs"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/descfmt"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/descopts"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/defval"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/messageset"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/strs"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 // Edition is an Enum for proto2.Edition

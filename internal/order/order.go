@@ -5,7 +5,7 @@
 package order
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // FieldOrder specifies the ordering to visit message fields.

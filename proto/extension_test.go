@@ -12,15 +12,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
 
-	legacy1pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	test3pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3"
-	descpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	legacy1pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	test3pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3"
+	descpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 func TestExtensionFuncs(t *testing.T) {

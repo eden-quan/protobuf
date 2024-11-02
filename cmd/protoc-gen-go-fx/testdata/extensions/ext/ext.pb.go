@@ -8,10 +8,10 @@
 package ext
 
 import (
-	base "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/extensions/base"
-	extra "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/extensions/extra"
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	base "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/testdata/extensions/base"
+	extra "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/testdata/extensions/extra"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

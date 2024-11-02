@@ -8,9 +8,9 @@
 package test3
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
-	descriptorpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
+	descriptorpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 	reflect "reflect"
 )
 

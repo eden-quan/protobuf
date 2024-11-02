@@ -34,10 +34,10 @@
 package typepb
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
-	anypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	sourcecontextpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/sourcecontextpb"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
+	anypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	sourcecontextpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/sourcecontextpb"
 	reflect "reflect"
 	sync "sync"
 )

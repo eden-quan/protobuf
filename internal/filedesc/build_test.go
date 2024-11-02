@@ -10,13 +10,13 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protodesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protodesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test/weak1"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test/weak1"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

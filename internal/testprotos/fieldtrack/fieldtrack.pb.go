@@ -8,11 +8,11 @@
 package fieldtrack
 
 import (
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/annotation"
-	test "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	proto "gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/annotation"
+	test "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	proto "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

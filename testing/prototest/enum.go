@@ -7,7 +7,7 @@ package prototest
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // Enum tests an [protoreflect.EnumType] implementation.

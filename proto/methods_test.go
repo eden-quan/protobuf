@@ -14,11 +14,11 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 
-	legacypb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy"
+	legacypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy"
 )
 
 type selfMarshaler struct {

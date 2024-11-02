@@ -10,7 +10,7 @@ import (
 	"math"
 	"reflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
 )
 
 // Equal reports whether v1 and v2 are recursively equal.

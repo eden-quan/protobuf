@@ -1,12 +1,12 @@
 package internal_gengo
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/compiler/protogen"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/compiler/protogen"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/meta"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/meta"
 )
 
 type FlattenInfo struct {

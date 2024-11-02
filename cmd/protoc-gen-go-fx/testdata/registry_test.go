@@ -7,9 +7,9 @@ package main
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 func TestRegistry(t *testing.T) {

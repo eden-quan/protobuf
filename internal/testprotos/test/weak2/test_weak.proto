@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.proto.test.weak;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test/weak2";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test/weak2";
 
 message WeakImportMessage2 {
 	required int32 a = 1;

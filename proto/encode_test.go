@@ -13,15 +13,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	orderpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/order"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	test3pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	orderpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/order"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	test3pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3"
 )
 
 func TestEncode(t *testing.T) {

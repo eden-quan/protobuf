@@ -5,9 +5,9 @@
 package proto
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 )
 
 // CheckInitialized returns an error if any required fields in m are not set.

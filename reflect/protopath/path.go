@@ -9,8 +9,8 @@ package protopath
 import (
 	"fmt"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/msgfmt"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/msgfmt"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // NOTE: The Path and Values are separate types here since there are use cases

@@ -16,17 +16,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	pimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protodesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	pimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protodesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
 
-	proto2_20180125 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	proto2_20180125 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy/proto2_20180125_92554152"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 // List of test operations to perform on messages, lists, or maps.

@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/descfmt"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/descfmt"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
 )
 
 // TestDescriptorAccessors tests that descriptorAccessors is up-to-date.

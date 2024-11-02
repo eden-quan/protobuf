@@ -9,10 +9,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	fmpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/fieldmaskpb"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	fmpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/fieldmaskpb"
 )
 
 func TestAppend(t *testing.T) {

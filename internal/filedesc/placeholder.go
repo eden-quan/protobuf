@@ -5,9 +5,9 @@
 package filedesc
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/descopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/descopts"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 var (

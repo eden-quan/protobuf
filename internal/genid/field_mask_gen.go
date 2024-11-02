@@ -7,7 +7,7 @@
 package genid
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 const File_google_protobuf_field_mask_proto = "google/protobuf/field_mask.proto"

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	tpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
+	tpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

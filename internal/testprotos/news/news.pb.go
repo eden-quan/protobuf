@@ -8,10 +8,10 @@
 package news
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
-	anypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	timestamppb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
+	anypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	timestamppb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
 	reflect "reflect"
 	sync "sync"
 )

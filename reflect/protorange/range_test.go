@@ -10,15 +10,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protopath"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protopath"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
 
-	newspb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/news"
-	anypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	timestamppb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
+	newspb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/news"
+	anypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	timestamppb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
 )
 
 func mustMarshal(m proto.Message) []byte {

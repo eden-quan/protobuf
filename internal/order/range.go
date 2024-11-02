@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 type messageField struct {

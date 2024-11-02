@@ -7,7 +7,7 @@ package wirefuzz
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/fuzztest"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/fuzztest"
 )
 
 func Test(t *testing.T) {

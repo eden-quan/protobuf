@@ -14,11 +14,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 
-	pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/conformance"
+	pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/conformance"
 )
 
 func init() {

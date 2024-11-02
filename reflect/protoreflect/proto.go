@@ -136,8 +136,8 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
 )
 
 type doNotImplement pragma.DoNotImplement

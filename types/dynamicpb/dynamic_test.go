@@ -7,14 +7,14 @@ package dynamicpb_test
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/prototest"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/dynamicpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/prototest"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/dynamicpb"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	test3pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	test3pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3"
 )
 
 func TestConformance(t *testing.T) {

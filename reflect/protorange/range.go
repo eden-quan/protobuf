@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"errors"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/order"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protopath"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/order"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protopath"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 var (

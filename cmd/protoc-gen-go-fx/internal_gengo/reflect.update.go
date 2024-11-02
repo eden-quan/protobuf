@@ -1,11 +1,11 @@
 package internal_gengo
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/compiler/protogen"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/compiler/protogen"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 // processFlattenExtension 检查 descProto 中的消息类型，为每个消息调用 updateFlattenMessage 进行更新

@@ -5,13 +5,13 @@
 package protodesc
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/strs"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/strs"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 type descsByName map[protoreflect.FullName]protoreflect.Descriptor

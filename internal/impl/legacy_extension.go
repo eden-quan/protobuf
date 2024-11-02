@@ -7,14 +7,14 @@ package impl
 import (
 	"reflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/descopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/messageset"
-	ptag "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/tag"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/descopts"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/messageset"
+	ptag "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/tag"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 )
 
 func (xi *ExtensionInfo) initToLegacy() {

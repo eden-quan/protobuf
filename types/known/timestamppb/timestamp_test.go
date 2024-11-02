@@ -12,10 +12,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
 
-	tspb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
+	tspb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
 )
 
 func init() {

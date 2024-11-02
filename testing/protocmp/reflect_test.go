@@ -9,12 +9,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	textpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb2"
-	anypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	wrapperspb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/wrapperspb"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	textpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb2"
+	anypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	wrapperspb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/wrapperspb"
 )
 
 func TestReflect(t *testing.T) {

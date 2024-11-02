@@ -5,13 +5,13 @@
 package proto_test
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
 
-	messagesetpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/messageset/messagesetpb"
-	msetextpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/messageset/msetextpb"
+	messagesetpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/messageset/messagesetpb"
+	msetextpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/messageset/msetextpb"
 )
 
 func init() {

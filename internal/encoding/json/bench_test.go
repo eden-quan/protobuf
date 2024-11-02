@@ -7,7 +7,7 @@ package json_test
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/json"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/json"
 )
 
 func BenchmarkFloat(b *testing.B) {

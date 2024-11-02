@@ -7,7 +7,7 @@
 
 package protoreflect
 
-import "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
+import "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
 
 type valueType int
 

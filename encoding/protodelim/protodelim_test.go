@@ -13,10 +13,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protodelim"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protodelim"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
 )
 
 func TestRoundTrip(t *testing.T) {

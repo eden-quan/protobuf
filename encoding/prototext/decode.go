@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/messageset"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/text"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/set"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/strs"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/messageset"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/text"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/set"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/strs"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given [proto.Message].

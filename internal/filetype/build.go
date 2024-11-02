@@ -9,11 +9,11 @@ package filetype
 import (
 	"reflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/descopts"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	pimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/descopts"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	pimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 )
 
 // Builder constructs type descriptors from a raw file descriptor

@@ -10,7 +10,7 @@ package impl
 import (
 	"reflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
 )
 
 func sizeEnum(p pointer, f *coderFieldInfo, _ marshalOptions) (size int) {

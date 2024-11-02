@@ -5,18 +5,18 @@
 package proto_test
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/protobuild"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/protobuild"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
 
-	legacypb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy"
-	requiredpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/required"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	test3pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3"
+	legacypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy"
+	requiredpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/required"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	test3pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3"
 )
 
 type testProto struct {

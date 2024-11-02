@@ -12,7 +12,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/strs"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/strs"
 )
 
 // parseStringValue parses string field token.

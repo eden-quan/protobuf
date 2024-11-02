@@ -4,7 +4,7 @@
 
 package protoreflect
 
-import "gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
+import "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
 
 // Enum is a reflection interface for a concrete enum value,
 // which provides type information and a getter for the enum number.

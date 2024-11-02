@@ -7,7 +7,7 @@ package proto
 import (
 	"reflect"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // Equal reports whether two messages are equal,

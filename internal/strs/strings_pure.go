@@ -7,7 +7,7 @@
 
 package strs
 
-import pref "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+import pref "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
 func UnsafeString(b []byte) string {
 	return string(b)

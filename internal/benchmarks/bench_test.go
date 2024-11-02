@@ -15,18 +15,18 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 
-	benchpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto2"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message1/proto3"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message2"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message3"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/datasets/google_message4"
+	benchpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/datasets/google_message1/proto2"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/datasets/google_message1/proto3"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/datasets/google_message2"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/datasets/google_message3"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/datasets/google_message4"
 )
 
 func BenchmarkWire(b *testing.B) {

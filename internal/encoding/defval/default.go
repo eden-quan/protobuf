@@ -14,9 +14,9 @@ import (
 	"math"
 	"strconv"
 
-	ptext "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/text"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	ptext "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/text"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // Format is the serialization format used to represent the default value.

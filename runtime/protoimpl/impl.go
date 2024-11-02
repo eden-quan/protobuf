@@ -12,9 +12,9 @@
 package protoimpl
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filedesc"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/filetype"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filedesc"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/filetype"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
 )
 
 // UnsafeEnabled specifies whether package unsafe can be used.

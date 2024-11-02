@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.protoc.extension.base;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/extensions/base";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/testdata/extensions/base";
 
 message BaseMessage {
   optional string field = 1;

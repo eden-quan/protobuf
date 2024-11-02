@@ -10,15 +10,15 @@
 package textpb2
 
 import (
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
-	anypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	durationpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/durationpb"
-	emptypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/emptypb"
-	fieldmaskpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/fieldmaskpb"
-	structpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/structpb"
-	timestamppb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
-	wrapperspb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/wrapperspb"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
+	anypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	durationpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/durationpb"
+	emptypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/emptypb"
+	fieldmaskpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/fieldmaskpb"
+	structpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/structpb"
+	timestamppb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
+	wrapperspb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/wrapperspb"
 	reflect "reflect"
 	sync "sync"
 )

@@ -11,7 +11,7 @@ import (
 	fmt "fmt"
 	math "math"
 
-	proto "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/protolegacy"
+	proto "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/protolegacy"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -4,7 +4,7 @@
 
 package genid
 
-import protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+import protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
 // Generic field names and numbers for synthetic map entry messages.
 const (

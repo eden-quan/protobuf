@@ -21,10 +21,10 @@ import (
 	"strings"
 	"sync"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/messageset"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/messageset"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // conflictPolicy configures the policy for handling registration conflicts.
@@ -201,7 +201,7 @@ func (r *Files) checkGenProtoConflict(path string) {
 	}
 	pkgName := strings.TrimSuffix(strings.TrimPrefix(path, "google/protobuf/"), ".proto")
 	pkgName = strings.Replace(pkgName, "_", "", -1) + "pb" // e.g., "field_mask" => "fieldmaskpb"
-	currPath := "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/" + pkgName
+	currPath := "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/" + pkgName
 	panic(fmt.Sprintf(""+
 		"duplicate registration of %q\n"+
 		"\n"+

@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/version"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/version"
 )
 
 var (

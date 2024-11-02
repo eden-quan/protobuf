@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
 
-	pb2 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb2"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/durationpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/emptypb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/structpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/wrapperspb"
+	pb2 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb2"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/durationpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/emptypb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/structpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

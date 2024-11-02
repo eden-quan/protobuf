@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
 )
 
 // kind represents an encoding type.

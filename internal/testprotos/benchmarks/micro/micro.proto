@@ -6,7 +6,7 @@ syntax = "proto2";
 
 package goproto.proto.benchmarks.microt;
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/benchmarks/micro";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/benchmarks/micro";
 
 message SixteenRequired {
   required int32 f1 = 1;

@@ -11,7 +11,7 @@
 
 package nullable
 
-import "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+import "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 
 func init() {
 	methodTestProtos = append(methodTestProtos,

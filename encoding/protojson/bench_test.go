@@ -7,9 +7,9 @@ package protojson_test
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/durationpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/durationpb"
 )
 
 func BenchmarkUnmarshal_Duration(b *testing.B) {

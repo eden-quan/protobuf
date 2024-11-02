@@ -5,7 +5,7 @@
 package proto
 
 import (
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // HasExtension reports whether an extension field is populated.

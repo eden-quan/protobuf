@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	piface "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	piface "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 )
 
 // TestValidate tests the internal message validator.

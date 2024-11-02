@@ -9,7 +9,7 @@
 // dependency on the descriptor proto package).
 package descopts
 
-import pref "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+import pref "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
 // These variables are set by the init function in descriptor.pb.go via logic
 // in internal/filetype. In other words, so long as the descriptor proto package

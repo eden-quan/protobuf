@@ -7,10 +7,10 @@ package main
 import (
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 
-	retentionpb "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/testdata/retention"
+	retentionpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/testdata/retention"
 )
 
 func TestFileOptionRetention(t *testing.T) {

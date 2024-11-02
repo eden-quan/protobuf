@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/errors"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/errors"
 )
 
 // Decoder is a token-based textproto decoder.

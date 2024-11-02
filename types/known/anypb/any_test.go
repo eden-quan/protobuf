@@ -8,14 +8,14 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	apb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	epb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/emptypb"
-	wpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/wrapperspb"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	apb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	epb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/emptypb"
+	wpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/wrapperspb"
 )
 
 func mustMarshal(m proto.Message) []byte {

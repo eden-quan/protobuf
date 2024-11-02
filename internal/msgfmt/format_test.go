@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/msgfmt"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protocmp"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/msgfmt"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protocmp"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
 
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	textpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb2"
-	dynpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/dynamicpb"
-	anypb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
-	durpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/durationpb"
-	tspb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/timestamppb"
-	wpb "gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/wrapperspb"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	textpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb2"
+	dynpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/dynamicpb"
+	anypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
+	durpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/durationpb"
+	tspb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/timestamppb"
+	wpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/wrapperspb"
 )
 
 func init() {

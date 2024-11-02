@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/dynamicpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/dynamicpb"
 
-	registrypb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/registry"
+	registrypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/registry"
 )
 
 var _ protoregistry.ExtensionTypeResolver = &dynamicpb.Types{}

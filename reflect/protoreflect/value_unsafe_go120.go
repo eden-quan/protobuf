@@ -10,7 +10,7 @@ package protoreflect
 import (
 	"unsafe"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/pragma"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/pragma"
 )
 
 type (

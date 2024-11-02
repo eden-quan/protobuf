@@ -9,9 +9,9 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	proto "gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	piface "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	proto "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	piface "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 )
 
 type marshalOptions struct {

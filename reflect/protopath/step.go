@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/text"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/text"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
 )
 
 // StepKind identifies the kind of step operation.

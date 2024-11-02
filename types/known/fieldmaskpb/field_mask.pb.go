@@ -76,9 +76,9 @@
 package fieldmaskpb
 
 import (
-	proto "gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	protoreflect "gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	protoimpl "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	proto "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	protoreflect "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	protoimpl "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 	reflect "reflect"
 	sort "sort"
 	strings "strings"

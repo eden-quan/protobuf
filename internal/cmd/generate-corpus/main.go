@@ -15,12 +15,12 @@ import (
 	"io/ioutil"
 	"log"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protojson"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protojson"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
 
-	fuzzpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/fuzz"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
+	fuzzpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/fuzz"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
 )
 
 var messages = []proto.Message{

@@ -8,18 +8,18 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/prototest"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/prototest"
 
-	irregularpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/irregular"
-	legacypb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy"
-	legacy1pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/legacy/proto2_20160225_2fc053c5"
-	testpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test/weak1"
-	_ "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test/weak2"
-	test3pb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/test3"
+	irregularpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/irregular"
+	legacypb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy"
+	legacy1pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/legacy/proto2_20160225_2fc053c5"
+	testpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test/weak1"
+	_ "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test/weak2"
+	test3pb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/test3"
 )
 
 func Test(t *testing.T) {

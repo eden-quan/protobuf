@@ -8,10 +8,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/compiler/protogen"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/protowire"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/compiler/protogen"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/protowire"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
 )
 
 type fileInfo struct {

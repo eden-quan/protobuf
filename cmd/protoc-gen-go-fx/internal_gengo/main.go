@@ -16,15 +16,15 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/compiler/protogen"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/encoding/tag"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/genid"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/version"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoreflect"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoimpl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/compiler/protogen"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/encoding/tag"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/genid"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/version"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoreflect"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoimpl"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/descriptorpb"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/pluginpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/descriptorpb"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/pluginpb"
 )
 
 // SupportedFeatures reports the set of supported protobuf language features.

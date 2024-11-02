@@ -8,12 +8,12 @@ package wirefuzz
 import (
 	"fmt"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/impl"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	piface "gitlab.lainuoniao.cn/eden-quan/protobuf/runtime/protoiface"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/impl"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	piface "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/runtime/protoiface"
 
-	fuzzpb "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/fuzz"
+	fuzzpb "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/fuzz"
 )
 
 // Fuzz is a fuzzer for proto.Marshal and proto.Unmarshal.

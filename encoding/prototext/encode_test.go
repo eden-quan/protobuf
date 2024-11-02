@@ -11,16 +11,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/encoding/prototext"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/detrand"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/flags"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/proto"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/reflect/protoregistry"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/testing/protopack"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/encoding/prototext"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/detrand"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/flags"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/proto"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/reflect/protoregistry"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/testing/protopack"
 
-	pb2 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb2"
-	pb3 "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/textpb3"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/types/known/anypb"
+	pb2 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb2"
+	pb3 "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/textpb3"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/types/known/anypb"
 )
 
 func init() {

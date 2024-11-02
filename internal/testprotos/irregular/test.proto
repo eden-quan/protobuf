@@ -12,7 +12,7 @@ package goproto.proto.irregular;
 
 import "internal/testprotos/irregular/irregular.proto";
 
-option go_package = "gitlab.lainuoniao.cn/eden-quan/protobuf/internal/testprotos/irregular";
+option go_package = "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/testprotos/irregular";
 
 message Message {
   optional IrregularMessage optional_message = 1;

@@ -16,9 +16,9 @@ import (
 	"os"
 	"path/filepath"
 
-	gengo "gitlab.lainuoniao.cn/eden-quan/protobuf/cmd/protoc-gen-go-fx/internal_gengo"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/compiler/protogen"
-	"gitlab.lainuoniao.cn/eden-quan/protobuf/internal/version"
+	gengo "gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/cmd/protoc-gen-go-fx/internal_gengo"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/compiler/protogen"
+	"gitlab.lainuoniao.cn/rhinobird/backend/protobuf.git/internal/version"
 )
 
 const genGoDocURL = "https://protobuf.dev/reference/go/go-generated"
